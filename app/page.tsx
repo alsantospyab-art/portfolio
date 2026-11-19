@@ -1,9 +1,10 @@
 import Playground from "@/components/Playground";
 import LanguageTabs from "@/components/LanguageTabs";
 import CopyEmail from "@/components/CopyEmail";
+import ProjectCarousel from "@/components/ProjectCarousel";
 import { profile, stats, pillars, skillGroups, experience, projects, infraLayers, securityWork, infraRepos } from "@/data/skills";
 
-const nav = [["Skills", "skills"], ["Infrastructure", "infrastructure"], ["Languages", "languages"], ["Playground", "playground"], ["Experience", "experience"], ["Projects", "projects"]];
+const nav = [["Skills", "skills"], ["Infrastructure", "infrastructure"], ["Live projects", "live"], ["Languages", "languages"], ["Playground", "playground"], ["Experience", "experience"], ["Projects", "projects"]];
 const spec = [
   ["Focus", "Full-stack, cloud, QA and security"],
   ["Core stack", "Elixir, Phoenix, Next.js, TypeScript"],
@@ -100,6 +101,12 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </section>
+
+        <section id="live">
+          <h2>Live projects</h2>
+          <p className="muted">Working sites you can open and try. Use the buttons or the arrow keys to move between them.</p>
+          <ProjectCarousel />
         </section>
 
         <section id="languages">

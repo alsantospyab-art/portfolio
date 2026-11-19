@@ -96,3 +96,17 @@ footer{padding:40px 0;color:var(--muted);font-size:14px}
 .sub{margin-top:40px;font-size:22px}
 .tabmeta code{font:400 14px "IBM Plex Mono",monospace;color:var(--ink)}
 @media (max-width:860px){.layer{grid-template-columns:1fr;gap:10px}}
+
+.car{margin-top:20px;border:1px solid var(--line);border-radius:14px;background:var(--surface);overflow:hidden}
+.slide{display:grid;grid-template-columns:1fr 1.25fr;gap:28px;padding:24px;align-items:center}
+.small{font-size:13px;margin:0 0 6px}
+.frame{position:relative;border:1px solid var(--line);border-radius:10px;overflow:hidden;aspect-ratio:16/10;background:var(--bg)}
+.frame iframe{position:absolute;top:0;left:0;width:200%;height:200%;border:0;transform:scale(.5);transform-origin:0 0;pointer-events:none}
+.frame a{position:absolute;inset:0}
+.carbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 24px;border-top:1px solid var(--line)}
+.dots{display:flex;gap:10px}
+.dot{width:12px;height:12px;border-radius:50%;border:1px solid var(--muted);background:none;padding:0;cursor:pointer}
+.dot[aria-selected=true]{background:var(--accent);border-color:var(--accent)}
+@keyframes fadein{from{opacity:0}to{opacity:1}}
+@media (prefers-reduced-motion:no-preference){.slide{animation:fadein .35s}}
+@media (max-width:860px){.slide{grid-template-columns:1fr;padding:18px}.carbar{padding:12px 18px}}
