@@ -22,6 +22,16 @@ Software developer and AWS infrastructure engineer from Pampanga, Philippines. F
 
 Change "Planned" to "Done" as each repo goes public. Remove a row until its repo exists, so no link is broken.
 
-## Contact
+## Web application
 
+### Bug tracker
+
+A simple ticketing system for tracking bugs. Create, edit and delete bugs, switch between a board view and a list view, and set status, assignee, priority and severity. Each bug has its own comments.
+- **Live demo:** https://alsantospyab-art.github.io/crud/
+
+
+## Portfolio
+
+Live site: https://alsantospyab-art.github.io/portfolio/
+## Contact
 al.santospayab@gmail.com
