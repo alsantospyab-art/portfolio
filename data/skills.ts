@@ -81,3 +81,21 @@ export const infraRepos = [
   { name: "server-hardening", status: "Planned", text: "Linux hardening script or playbook: SSH settings, firewall, patching and audit logging, with a checklist.", tech: "Linux, Bash, SSH, firewall" },
   { name: "monitoring-and-alerts", status: "Planned", text: "CloudWatch alarms and dashboards that notify through SNS, defined as code with a short runbook.", tech: "CloudWatch, SNS, CloudFormation" },
 ];
+
+// Live projects shown in the carousel. Add a new object here to add a slide.
+export const liveProjects = [
+  {
+    name: "AWS infrastructure showcase",
+    url: "https://alsantospyab-art.github.io/aws-showcase/",
+    repo: "https://github.com/alsantospyab-art/aws-showcase",
+    text: "An interactive page for two CloudFormation projects: a secure account baseline, and a hosting setup with a firewall, load balancer, Auto Scaling and a private database. Select any tool to see what it does and why.",
+    tags: ["AWS", "CloudFormation", "WAF", "Route 53", "RDS"],
+  },
+  {
+    name: "Bug tracker",
+    url: "https://alsantospyab-art.github.io/crud/",
+    repo: "https://github.com/alsantospyab-art/crud",
+    text: "A simple ticketing system for tracking bugs. Create, edit and delete bugs, switch between board and list views, and set status, assignee, priority and severity. Each bug has comments.",
+    tags: ["Board view", "List view", "Comments", "CRUD"],
+  },
+];
