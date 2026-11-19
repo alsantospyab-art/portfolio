@@ -15,15 +15,18 @@ Software developer and AWS infrastructure engineer from Pampanga, Philippines. F
 
 | Repo | What it shows | Status |
 | --- | --- | --- |
-| [aws-secure-baseline](https://github.com/alsantospyab-art/aws-secure-baseline) | VPC, least-privilege IAM, CloudTrail in CloudFormation | Planned |
-| [aws-hosting-reference](https://github.com/alsantospyab-art/aws-hosting-reference) | Route 53, WAF, load balancer, Auto Scaling, RDS | Planned |
+| [aws-secure-baseline](https://github.com/alsantospyab-art/aws-secure-baseline) | VPC, least-privilege IAM, CloudTrail in CloudFormation | Done |
+| [aws-hosting-reference](https://github.com/alsantospyab-art/aws-hosting-reference) | Route 53, WAF, load balancer, Auto Scaling, RDS | Done |
 | [server-hardening](https://github.com/alsantospyab-art/server-hardening) | Linux SSH, firewall, patching and audit checklist | Planned |
 | [monitoring-and-alerts](https://github.com/alsantospyab-art/monitoring-and-alerts) | CloudWatch alarms and SNS notifications as code | Planned |
 
-Change "Planned" to "Done" as each repo goes public. Remove a row until its repo exists, so no link is broken.
 
 ## Web application
+AWS infrastructure showcase
 
+An interactive page for my two CloudFormation projects. Switch between the projects.
+
+Live demo: https://alsantospyab-art.github.io/aws-showcase/
 ### Bug tracker
 
 A simple ticketing system for tracking bugs. Create, edit and delete bugs, switch between a board view and a list view, and set status, assignee, priority and severity. Each bug has its own comments.
